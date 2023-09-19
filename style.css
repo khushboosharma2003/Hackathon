@@ -240,7 +240,6 @@ nav{
 #projects{
   height: max-content;
   background-color: black;
-<<<<<<< HEAD
 
 }
 
@@ -309,6 +308,4 @@ label , input {
 .button:hover{
   background-color: white;
   color:black;
-=======
->>>>>>> 0f84980f63108f41b0b5f3e33863a09339554636
 }
