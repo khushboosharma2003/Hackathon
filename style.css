@@ -9,6 +9,7 @@ nav{
     width: 100%;
     position: fixed;
   }
+  
   nav ul{
     list-style-type: none ;
     float: right;
@@ -31,7 +32,7 @@ nav{
   }
 
   a:hover{
-    color: rgb(198, 34, 243);
+    color: rgb(207, 118, 232);
     /* font-size: large; */
 
     text-rendering: optimizeSpeed;
@@ -55,12 +56,12 @@ nav{
     font-size: 30px;
     margin-left: 2rem;
     padding-top: .5rem;
-    /* color: rgb(198, 34, 243); */
+    /* color: rgba(214, 124, 238, 0.538); */
     display: inline-block;
     color: aliceblue;
     float:left;
     text-shadow:
-    0px 0px 18px  rgb(198, 34, 243);
+    0px 0px 18px  rgba(214, 124, 238, 0.538);
     
   }
   /* .techpro
@@ -113,3 +114,64 @@ nav{
     }
   
   }
+  /* ######### home ###################3 */
+  .quote_photo{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 36px;
+  }
+  .small_quote{
+    padding: 56px;
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: 900;
+    line-height: 9rem;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .bde_quote{
+    padding-top: 55px ;
+    font-size: 20px;
+    margin: 1rem;
+    color:rgb(143, 134, 146) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+  }
+  .home{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+  }
+  #img-home{
+        width: 700px;
+        height: 500px;
+        border-radius:50% ;
+        
+        margin-top: 65px;
+      margin-right: 2rem;
+      }
+      #img-home:hover{
+        transition: .4s ease-in-out;
+       transform: translateY(-1rem);
+      }
+      /* ################abourt #################### */
+      .ab-head{
+        font-family: bodoni-w01-poster,bodoni-poster-w10,fantasy;
+        font-size: 60px;
+    text-align: center;
+        padding: 1.3rem;
+     
+        color: rgb(0, 0, 0);
+        padding-top: 2rem;
+        height: 10vh;
+      /* margin-top: 10rem; */
+        background-color: #bf91c5c5;
+      }
+      #about{
+        height: 100vh;
+        background-color: black;
+      }
