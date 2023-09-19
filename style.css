@@ -39,9 +39,7 @@ nav{
     border-radius: 5px;
     text-shadow: rgba(255, 255, 255, 0.533);
     text-decoration: wavy;
-    /* font-style: oblique; */
-    /* font-weight: 300; */
-    /* font-weight: bolder; */
+
   }
   .checkbtn{
     cursor: pointer;
@@ -53,7 +51,7 @@ nav{
     
   }
   #main{
-    transition: transform 1s ease;
+   
     font-size: 30px;
     margin-left: 2rem;
     padding-top: .5rem;
@@ -65,6 +63,11 @@ nav{
     0px 0px 18px  rgb(198, 34, 243);
     
   }
+  /* .techpro
+  {
+    transition:0.5s; 
+  
+  } */
   #check{
     display: none;
   }
