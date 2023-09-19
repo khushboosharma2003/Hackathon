@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- You can link your CSS file here -->
+    <title>TECH PRO</title>
+    <script
+    src="https://kit.fontawesome.com/fd99f16a00.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div>
+        <nav>
+            <label for="check" id="foodvilla">TECH PRO</label>
+            <input type="checkbox" name="check" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars checkbtn" style="color: white;"></i>
+            </label>
+
+            <ul>
+                <li class="navli"><a href="/">Home</a></li>
+                <li class="navli"><a href="/">About</a></li>
+                <li class="navli"><a href="/">Projects</a></li>
+                <li class="navli"><a href="/">LOGIN</a></li>
+                <li class="navli"><a href="/">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
