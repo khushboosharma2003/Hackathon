@@ -218,6 +218,14 @@ nav{
         width: 50%;
         line-height: 2.2rem;
       }
+ @media screen and (min-width:300px) and (max-width:950px) {
+      #home{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+      }
+      
+    }
       /* ##############projectsss################### */
 #projects{
   height: 100vh;
