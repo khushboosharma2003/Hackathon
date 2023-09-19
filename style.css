@@ -116,6 +116,15 @@ nav{
   
   }
   /* ######### home ###################3 */
+
+@media screen and (min-width:300px) and (max-width:950px) {
+     #home{
+       display: flex;
+       flex-direction: column;
+       width: fit-content;
+     }
+     
+   }
   .quote_photo{
     background-color: black;
     color: white;
@@ -189,13 +198,14 @@ nav{
      
         color: rgb(0, 0, 0);
         padding-top: 2rem;
-        height: 10vh;
+        height: 20vh;
       /* margin-top: 10rem; */
         background-color:  rgb(99, 225, 229);
       }
       #about{
         height: 100vh;
         background-color: black;
+        width: 100vw;
       }
       .cont{
         display: flex;
@@ -220,6 +230,74 @@ nav{
       }
       /* ##############projectsss################### */
 #projects{
-  height: 100vh;
+  height: max-content;
   background-color: black;
+
+}
+
+.card-container {
+  display: flex;
+  /* padding: 1.4rem; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 2rem;
+}
+.card-content:hover {
+  transform: translateY(-8px);
+  box-shadow: 10px 10px 10px rgb(90, 87, 87);
+}
+
+.card-content {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  transition: transform 0.3s;
+overflow: hidden;
+ width: 500px;
+ height: 200px;
+padding: 2rem 1rem;
+
+}
+.card-content h6{
+display: inline-block;
+}
+
+.card p {
+margin-top: 8px;
+font-size: 14px;
+color: #666666;
+}
+
+/* ###############from ####################### */
+.login-form{
+  display: flex;
+background-color: black;
+color: white;
+}
+.sign-in-htm{
+  text-align: center;
+  width: 50vw;
+  border: 1px solid black;
+  padding: 2rem;
+}
+.sign-up-htm{
+  width: 50vw;
+  text-align: center;
+  border: 1px solid black;
+  padding: 2rem;
+}
+label , input {
+  margin: 1rem;
+  font-size: 20px;
+}
+.button{
+  padding: .5rem 1rem;
+  border-radius: 10%;
+  background-color: rgb(99, 225, 229);
+}
+.button:hover{
+  background-color: white;
+  color:black;
 }
