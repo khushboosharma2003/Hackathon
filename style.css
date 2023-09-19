@@ -228,10 +228,19 @@ nav{
         width: 50%;
         line-height: 2.2rem;
       }
+ @media screen and (min-width:300px) and (max-width:950px) {
+      #home{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+      }
+      
+    }
       /* ##############projectsss################### */
 #projects{
   height: max-content;
   background-color: black;
+<<<<<<< HEAD
 
 }
 
@@ -300,4 +309,6 @@ label , input {
 .button:hover{
   background-color: white;
   color:black;
+=======
+>>>>>>> 0f84980f63108f41b0b5f3e33863a09339554636
 }
